@@ -1,2 +1,9 @@
 # BloxStrike-Script-Keyless
-WARNING: Do NOT ignore warning messages saying you're shooting/killing people too fast! The server may flag and kick you if you do ignore them.  This is a script for https://www.roblox.com/games/114234929420007/BloxStrike.  Features: Silent Aim and Wallbang.  Please note that your executor must have a high sUNC.
+Sorry to anyone wanting to view the source, I've obfuscated it so that the BloxStrike developers don't patch this too quickly.
+This script is not open-source. You can also view this script over at [scriptblox.com](https://scriptblox.com/script/MISSIONS!-BloxStrike-Script-Keyless-202777) or [haxhell.com](https://haxhell.com/scripts/missions-bloxstrike-bloxstrike-script-keyless) or [rscripts.net](https://rscripts.net/script/bloxstrike-script-keyless-ZumK).
+
+```lua
+getgenv().fov = 300;
+getgenv().warnings = true; -- Set this to false if you don't want to see any warnings (NOT RECOMMENDED)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sneekygoober/BloxStrike-Script-Keyless/refs/heads/main/main.luau"))();
+```
