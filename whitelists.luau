@@ -1,3 +1,4 @@
 return {
-	"Potassium"
+	"Potassium",
+	"Synapse Z"
 };
