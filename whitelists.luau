@@ -1,5 +1,4 @@
 return {
 	"Potassium",
-	"Synapse Z",
-	"Static"
+	"Synapse Z"
 };
